@@ -20,12 +20,12 @@ namespace Smart_Delivery_Management_System03
             }
         }
 
-        public override decimal EstimatedCost => DeliveryFee + (Weight * 5) + ExtraFee;
-
         public ExpressShipment(string tackingCode, string description, decimal weight, decimal deliveryFee, DeliveryAddress destination, decimal extrafee) : base(tackingCode, description, weight, deliveryFee, destination)
+
         {
             ExtraFee = extrafee;
         }
+        public override decimal EstimatedCost => DeliveryFee + (Weight * 5) + ExtraFee;
 
         public override void PrintShipment()
         {

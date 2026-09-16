@@ -35,13 +35,13 @@ namespace Smart_Delivery_Management_System03
             }
         }
 
-        public override decimal EstimatedCost => DeliveryFee + (Weight * 5) + CustomsFee;
-
         public InternationalShipment(string tackingCode, string description, decimal weight, decimal deliveryFee, DeliveryAddress destination, string destinationcountry, decimal customsfee) : base(tackingCode, description, weight, deliveryFee, destination)
         {
             DestinationCountry = destinationcountry;
             CustomsFee = customsfee;
         }
+
+        public override decimal EstimatedCost => DeliveryFee + (Weight * 5) + CustomsFee;
 
         public override void PrintShipment()
         {

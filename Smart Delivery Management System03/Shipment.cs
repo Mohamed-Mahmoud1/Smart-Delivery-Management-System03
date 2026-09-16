@@ -72,6 +72,8 @@ namespace Smart_Delivery_Management_System03
             }
         }
 
+
+
         public decimal DeliveryFee
         {
             get
@@ -117,5 +119,20 @@ namespace Smart_Delivery_Management_System03
             Console.WriteLine($"Estimated Cost: {EstimatedCost} EGP");
             Console.WriteLine("-------------------------------------------------");
         }
+
+        public void UpdateWeight(decimal newWeight)
+        {
+            Weight = newWeight;
+        }
+
+        public void UpdateWeight(decimal baseWeight, decimal extraPackingWeight)
+        {
+           
+                Weight = baseWeight + extraPackingWeight;
+            
+        }
+
+       
+
     }
 }

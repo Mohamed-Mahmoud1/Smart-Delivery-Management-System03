@@ -36,11 +36,25 @@
 
             #region 1.Update the Shipment Class
 
-         /*
-          EstimatedCost:     Convert to a virtual property so each derived class can calculate its own cost.
-          PrintShipment():   Convert to a virtual method. Every child class will override it.
-         */
+            /*
+             EstimatedCost:     Convert to a virtual property so each derived class can calculate its own cost.
+             PrintShipment():   Convert to a virtual method. Every child class will override it.
+            */
 
+            #endregion
+
+            #region 2.Constructor Chaining
+
+            /*
+         Derived Class	    Must chain to
+
+         StandardShipment	base(...) → Shipment
+
+         ExpressShipment	base(...) → Shipment
+
+         InternationalShipment	base(...) → Shipment
+
+            */
             #endregion
 
 
