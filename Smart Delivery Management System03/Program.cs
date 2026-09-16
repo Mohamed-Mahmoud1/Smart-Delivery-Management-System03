@@ -101,6 +101,14 @@
              */
             #endregion
 
+            #region 8.Sealed Class
+
+            /*
+             Create CompletedShipment, inheriting from Shipment, and mark the class sealed.
+             */
+            #endregion
+
+
             #endregion
 
         }
