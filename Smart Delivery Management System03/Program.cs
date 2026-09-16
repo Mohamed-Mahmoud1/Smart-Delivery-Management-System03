@@ -69,6 +69,20 @@
 
             #endregion
 
+            #region 4.Override PrintShipment()
+
+            /*
+                        Field
+
+            Tracking / Description / Weight / Delivery Fee
+            Estimated Cost
+            Extra Fee
+            Destination Country
+             Customs Fee
+
+             */
+            #endregion
+
             #endregion
 
         }

@@ -36,6 +36,7 @@ namespace Smart_Delivery_Management_System03
             Console.WriteLine($"Weight: {Weight} KG");
             Console.WriteLine($"Delivery Fee: {DeliveryFee} EGP ");
             Console.WriteLine($"Estimated Cost: {EstimatedCost} EGP");
+            Console.WriteLine($"Extra Fee: {ExtraFee} EGP");
             Console.WriteLine("-------------------------------------------------");
         }
 
