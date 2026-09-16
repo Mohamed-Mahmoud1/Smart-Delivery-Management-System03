@@ -57,7 +57,17 @@
             */
             #endregion
 
+            #region  3.Override EstimatedCost
 
+            /*
+             Class	                    Formula
+            StandardShipment	        uses the inherited calculation, unmodified
+            ExpressShipment	            DeliveryFee + (Weight × 5) + ExtraFee
+            InternationalShipment	    DeliveryFee + (Weight × 5) + CustomsFee
+
+             */
+
+            #endregion
 
             #endregion
 
