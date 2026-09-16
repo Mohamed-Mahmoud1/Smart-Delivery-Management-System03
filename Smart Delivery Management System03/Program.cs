@@ -94,6 +94,13 @@
              */
             #endregion
 
+            #region 7.Create DeliveryHelper
+            /*
+             A static class with one method: void PrintShipmentDetails(Shipment shipment). It calls shipment.PrintShipment(); 
+             — whichever override matches the object's real type runs automatically.
+             */
+            #endregion
+
             #endregion
 
         }
