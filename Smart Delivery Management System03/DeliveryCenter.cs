@@ -6,6 +6,7 @@ namespace Smart_Delivery_Management_System03
 {
     public class DeliveryCenter
     {
+        public Driver Driver { get; set; }
         public string CenterName { get; set; }
         private Shipment[] shipments;
         public DeliveryCenter()

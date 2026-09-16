@@ -108,7 +108,6 @@
              */
             #endregion
 
-
             #region 9.Sealed Method
 
             /*
@@ -118,6 +117,71 @@
              */
 
             #endregion
+
+            #region 10.Main() Checklist
+            //Driver driver = new Driver();
+            //driver.FullName = "Ahmed Mohamed";
+            //DeliveryCenter deliverycenter = new DeliveryCenter();                       
+            //deliverycenter.Driver = driver;
+
+            //DeliveryAddress deliveryadders = new DeliveryAddress("Germany","",0);
+
+            //StandardShipment standardshipment = new StandardShipment("SH001", "Laptop",3,80,deliveryadders);
+
+            //ExpressShipment expressshipment = new ExpressShipment("SH002", "Mobile Phone", 2, 60, deliveryadders,30);
+
+            //InternationalShipment internationalshipment = new InternationalShipment("SH003", "Television", 8, 120, deliveryadders, "Germany", 100);
+
+            //deliverycenter.AddShipment(standardshipment);
+            //deliverycenter.AddShipment(expressshipment);
+            //deliverycenter.AddShipment(internationalshipment);
+
+            //Console.WriteLine("==============================");
+            //Console.WriteLine("Delivery Center");
+            //Console.WriteLine("===============================");
+
+            //Console.WriteLine($"\nDriver:{driver.FullName}\n");
+            //Console.WriteLine("--------------------------------------------------");
+
+            //deliverycenter.PrintAllShipments();
+
+            //Console.WriteLine("===================================================");
+
+            //Console.WriteLine("\nPrinting Using DeliveryHelper...\n");
+            //DeliveryHelper.PrintShipmentDetails(standardshipment);
+            //DeliveryHelper.PrintShipmentDetails(expressshipment);
+            //DeliveryHelper.PrintShipmentDetails(internationalshipment);
+
+            //Console.WriteLine("===================================================");
+            //Console.WriteLine("\nUpdating Weight...\n");
+
+            //Console.WriteLine($"Original Weight: {standardshipment.Weight}");
+
+            //standardshipment.UpdateWeight(5);
+            //Console.WriteLine($"Updated Weight : {standardshipment.Weight}");
+
+            //standardshipment.UpdateWeight(5,0.5m);
+            //Console.WriteLine($"Updated Weight After Packing: {standardshipment.Weight}");
+
+            //Console.WriteLine("===================================================");
+
+            //Console.WriteLine("\nPrinting Using Shipment[]...\n");
+            //Shipment[] shipments = new Shipment[3];
+            //shipments[0] = standardshipment;
+            //shipments[1] = expressshipment;
+            //shipments[2] = internationalshipment;
+
+            //foreach (Shipment shipment in shipments)
+            //{
+            //    shipment.PrintShipment();
+            //}
+
+            /*Demonstrate the sealed class and sealed method (comments or code).
+             A sealed class is a class that cannot be inherited by any other class.
+             A sealed method is an overridden method in a derived class that is marked with the 'sealed' keyword to prevent any further overriding in subsequent child classes.
+            */
+            #endregion
+
 
             #endregion
 
