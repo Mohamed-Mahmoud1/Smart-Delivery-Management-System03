@@ -56,5 +56,10 @@ namespace Smart_Delivery_Management_System03
             Console.WriteLine($"Estimated Cost: {EstimatedCost} EGP");
             Console.WriteLine("-------------------------------------------------");
         }
+
+        public virtual void GenerateCustomsReport()
+        {
+            Console.WriteLine("This is from InternationalShipment Class!");
+        }
     }
 }

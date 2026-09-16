@@ -109,6 +109,16 @@
             #endregion
 
 
+            #region 9.Sealed Method
+
+            /*
+            In InternationalShipment, add a virtual GenerateCustomsReport().
+            In PriorityInternationalShipment (inherits from InternationalShipment), 
+            override it and mark that override sealed.
+             */
+
+            #endregion
+
             #endregion
 
         }

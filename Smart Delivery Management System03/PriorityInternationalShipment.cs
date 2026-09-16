@@ -10,6 +10,11 @@ namespace Smart_Delivery_Management_System03
         {
         }
 
-        
+        public override sealed void GenerateCustomsReport()
+        {
+            Console.WriteLine("This is from PriorityInternationalShipment Class!");
+        }
+
+
     }
 }
