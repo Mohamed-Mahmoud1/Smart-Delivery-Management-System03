@@ -30,6 +30,23 @@
             #endregion
 
             #endregion
+
+            #region Part 02 — Practical
+
+
+            #region 1.Update the Shipment Class
+
+         /*
+          EstimatedCost:     Convert to a virtual property so each derived class can calculate its own cost.
+          PrintShipment():   Convert to a virtual method. Every child class will override it.
+         */
+
+            #endregion
+
+
+
+            #endregion
+
         }
     }
 }
