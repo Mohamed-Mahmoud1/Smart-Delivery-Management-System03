@@ -83,6 +83,17 @@
              */
             #endregion
 
+            #region 5.Class Relationships
+            #endregion
+
+            #region 6.Update DeliveryCenter
+            /*
+             	Keep: the Shipment array, AddShipment(), RemoveShipment(), and both indexers — all reused from Assignment 02.
+                Modify PrintAllShipments() to loop through the array and simply call shipment.PrintShipment();
+                — no manual type-checking. That single call resolving to a different method per object is dynamic binding.
+             */
+            #endregion
+
             #endregion
 
         }
